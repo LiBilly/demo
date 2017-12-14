@@ -1,6 +1,5 @@
 package com.example.demo;
 
-import com.example.demo.core.FindBy;
 import org.openqa.selenium.WebDriver;
 
 /**
@@ -8,7 +7,6 @@ import org.openqa.selenium.WebDriver;
  */
 public class BaiduHomePage {
 
-    @FindBy("test")
     private MyWebElement keywordInput;
 
     private WebDriver webDriver;
