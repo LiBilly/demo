@@ -8,6 +8,8 @@
 
 *.iml
 *.settings
+mvnw
+mvnw.cmd
 
 # java
 target/*
