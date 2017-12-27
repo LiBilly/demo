@@ -7,7 +7,8 @@ public class TestProxy {
 
     public static void main(String[] args) {
         BookFacadeProxy proxy = new BookFacadeProxy();
-        BookFacade bookProxy = (BookFacade) proxy.bind(new BookFacadeImpl());
+        Object target = proxy.bind(new BookFacadeImpl());
+        BookFacade bookProxy = (BookFacade) target;
         bookProxy.addBook();
     }
 
