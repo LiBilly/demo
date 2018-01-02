@@ -1,0 +1,15 @@
+# ide
+.idea
+
+# Mac General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+*.iml
+*.settings
+mvnw
+mvnw.cmd
+
+# java
+target/*
