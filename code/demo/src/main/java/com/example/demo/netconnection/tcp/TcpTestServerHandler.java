@@ -9,11 +9,11 @@ import java.net.Socket;
 /**
  * Created by billy on 18-1-2.
  */
-public class TcpServerHandler extends Thread {
+public class TcpTestServerHandler extends Thread {
 
     private Socket client = null;
 
-    public TcpServerHandler(Socket client) {
+    public TcpTestServerHandler(Socket client) {
         this.client = client;
     }
 

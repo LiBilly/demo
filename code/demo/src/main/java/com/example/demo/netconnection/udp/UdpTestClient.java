@@ -9,7 +9,7 @@ import java.net.SocketException;
 /**
  * Created by billy on 18-1-2.
  */
-public class UdpClient {
+public class UdpTestClient {
 
     public static void main(String[] args) {
         try {

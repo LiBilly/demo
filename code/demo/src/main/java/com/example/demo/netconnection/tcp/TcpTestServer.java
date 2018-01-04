@@ -7,7 +7,7 @@ import java.net.Socket;
 /**
  * Created by billy on 18-1-2.
  */
-public class TcpServer {
+public class TcpTestServer {
 
     public static void main(String[] args) {
         try {
@@ -17,7 +17,7 @@ public class TcpServer {
             while(f) {
                 Socket client = serverSocket.accept();
                 System.out.println("connection established.");
-                TcpServerHandler handler = new TcpServerHandler(client);
+                TcpTestServerHandler handler = new TcpTestServerHandler(client);
                 handler.start();
             }
             serverSocket.close();

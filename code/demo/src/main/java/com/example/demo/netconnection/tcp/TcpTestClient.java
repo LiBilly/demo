@@ -9,7 +9,7 @@ import java.net.Socket;
 /**
  * Created by billy on 18-1-2.
  */
-public class TcpClient {
+public class TcpTestClient {
 
     public static void main(String[] args) {
         Socket socket = null;

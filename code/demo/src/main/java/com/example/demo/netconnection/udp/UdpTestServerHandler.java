@@ -8,13 +8,13 @@ import java.net.InetAddress;
 /**
  * Created by billy on 18-1-2.
  */
-public class UdpServerHandler implements Runnable {
+public class UdpTestServerHandler implements Runnable {
 
     private DatagramSocket datagramSocket;
     private DatagramPacket packet;
     private byte[] data;
 
-    public UdpServerHandler(DatagramSocket datagramSocket, DatagramPacket packet, byte[] data) {
+    public UdpTestServerHandler(DatagramSocket datagramSocket, DatagramPacket packet, byte[] data) {
         this.datagramSocket = datagramSocket;
         this.packet = packet;
         this.data = data;
