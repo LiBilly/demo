@@ -1,4 +1,4 @@
-package com.example.demo.netconnection.udp;
+package com.example.demo.netconnection.udp.unicast;
 
 import java.io.IOException;
 import java.net.DatagramPacket;
